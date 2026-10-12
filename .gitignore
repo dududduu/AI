@@ -1,0 +1,41 @@
+# API keys, credentials, and local environment
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Personal, source, and research data
+data/
+datasets/
+private/
+papers/
+references/
+interviews/
+transcripts/
+*.pdf
+*.doc
+*.docx
+*.hwp
+*.hwpx
+
+# Generated proposals and local working files
+research-proposal.md
+*-research-proposal-draft.md
+outputs/
+work/
+scratch/
+
+# Editor, OS, cache, and logs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+*.log
+__pycache__/
+*.py[cod]
